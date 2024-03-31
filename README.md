@@ -22,7 +22,7 @@ Install recommended extensions
 
 Choose a profile (Launch or Debug)
 
-Done. You should 
+Done. You should be able to compile without issues. Debugging features like breakpoints are only present using the `Debug` profile.
 
 ## Any other operating system
 
