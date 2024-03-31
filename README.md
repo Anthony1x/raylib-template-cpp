@@ -1,6 +1,6 @@
 # How to use
 
-This template has only been configured to work with the following environemnt:
+This template has only been configured to work with the following environment:
 
 | Key         | Value              |
 |-------------|--------------------|
