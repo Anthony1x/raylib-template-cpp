@@ -2,11 +2,11 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "release",
             "type": "shell",
             "command": "g++",
             "args": [
-                "*.cpp",
+                "./src/*.cpp",
                 "-std=c++23",
                 "-lraylib",
                 "-lGL",
@@ -16,17 +16,17 @@
                 "-lrt",
                 "-lX11",
                 "-o",
-                "a.out"
+                "./bin/release.out"
             ],
             "group": "build",
             "problemMatcher": "$gcc"
         },
         {
-            "label": "buildd",
+            "label": "debug",
             "type": "shell",
             "command": "g++",
             "args": [
-                "*.cpp",
+                "./src/*.cpp",
                 "-std=c++23",
                 "-lraylib",
                 "-lGL",
@@ -37,7 +37,7 @@
                 "-lX11",
                 "-g",
                 "-o",
-                "a.out"
+                "./bin/debug.out"
             ],
             "group": "build",
             "problemMatcher": "$gcc"
