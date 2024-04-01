@@ -4,7 +4,6 @@
 int main(void)
 {
     Game* game = Game::GetInstance();
-    Game* game2 = Game::GetInstance();
 
     while (!WindowShouldClose())
     {
