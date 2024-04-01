@@ -3,12 +3,13 @@
 
 int main(void)
 {
-    Game game = Game();
+    Game* game = Game::GetInstance();
+    Game* game2 = Game::GetInstance();
 
     while (!WindowShouldClose())
     {
-        game.Update();
-        game.Draw();
+        game->Update();
+        game->Draw();
     }
 
     CloseWindow();
